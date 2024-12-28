@@ -6,7 +6,7 @@ const Hero: React.FC = () => {
       <div
         className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
         style={{
-          backgroundImage: "url('src/assets/background-image.png')",
+          backgroundImage: "url('/assets/background-image.png')",
         }}
       >
         <div className="lg:grid lg:grid-cols-2 lg:gap-8 items-center">
@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
           </div>
           <div>
             <video className="w-6/12" autoPlay muted loop playsInline>
-              <source src="src/assets/workspace-video.mp4" type="video/mp4" />
+              <source src="/assets/workspace-video.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>

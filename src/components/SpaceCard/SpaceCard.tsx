@@ -26,7 +26,7 @@ const item = {
 
 const resolveImagePath = (imagePath: string) => {
   try {
-    return "src/assets/" + imagePath;
+    return "/assets/" + imagePath;
   } catch (error) {
     console.error("Image not found:", imagePath);
     return "/placeholder.jpg"; // Fallback image

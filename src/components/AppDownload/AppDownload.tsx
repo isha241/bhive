@@ -29,16 +29,16 @@ const AppDownload: React.FC = () => {
             </p>
             <div className="flex gap-4">
               <button onClick={handleGooglePlayClick}>
-                <img src="src/assets/google-play.svg" />
+                <img src="/assets/google-play.svg" />
               </button>
               <button onClick={handleAppStoreClick}>
-                <img src="src/assets/app-store.svg" alt="" />
+                <img src="/assets/app-store.svg" alt="" />
               </button>
             </div>
           </div>
           <div className="relative">
             <img
-              src="src/assets/download.svg"
+              src="/assets/download.svg"
               alt="BHIVE Workspace App"
               className="w-full max-w-sm mx-auto rounded-lg shadow-lg"
             />
