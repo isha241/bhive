@@ -1,0 +1,20 @@
+{
+  "spaces": [
+    {
+      "id": "39ab7642-8de3-4e95-aa5d-34089bc67b90",
+      "name": "Platinum, Indiranagar",
+      "address": "271, 6th Main Rd, HAL 2nd Stage, Motappapalya, Indiranagar, Bengaluru, Karnataka 560038, India",
+      "latitude": 12.9732196,
+      "longitude": 77.6406548,
+      "google_maps_url": "https://www.google.com/maps/place/BHIVE+Workspace+Platinum+Indiranagar/@12.9732196,77.6406548,15z",
+      "day_pass_price": 499,
+      "day_pass_discounts_percentage": {
+        "10": {
+          "value": 20,
+          "message": "Pay for 8 Days, Get 2 Days Complimentary"
+        }
+      },
+      "images": ["assets/5934c0fd9d574bddbde8175d86a2d2da.jpg"]
+    }
+  ]
+}
